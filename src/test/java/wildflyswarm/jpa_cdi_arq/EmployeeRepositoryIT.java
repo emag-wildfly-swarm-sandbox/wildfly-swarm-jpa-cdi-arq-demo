@@ -21,7 +21,7 @@ public class EmployeeRepositoryIT {
   @Test
   public void test() throws Exception {
     assertThat(sut, is(notNullValue()));
-    assertThat(sut.findAll().size(), is(5));
+    assertThat(sut.findAll().size(), is(8));
   }
 
 }
